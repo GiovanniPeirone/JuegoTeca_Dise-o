@@ -13,6 +13,11 @@
     margin-top: 2.5%;
 }
 
+.MainHeader h3:hover {
+    color: aqua;
+}
+
+
 .MainHeader .Buscador{
     margin-top: 2.5%;
     margin-left: 50%;
