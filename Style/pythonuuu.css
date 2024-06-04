@@ -1,0 +1,39 @@
+body    {
+    margin: 0;
+    background-color: #1D2F4B;
+}
+
+.Contenedor {
+    display: grid;                                          /* Que hace? */
+    grid-template-columns: 1fr 1fr;                         /* Que hace? */
+    gap: 20px; /* Espacio entre las columnas */             /* Que hace? */
+    height: 100vh;                                          /* Deberia ser VH o Responsivo Ns*/
+}
+.Seccion1{
+    grid-row: span 2; /* Ocupa dos filas */                 /* Que hace? */
+    display: flex;                                          /* Que hace? */
+    /* Font Size? */
+    background-color: #BA5252;
+    margin: 20px;
+
+}
+
+
+#TextoGrande {
+    margin: 10px;                                           /* Cambiar, no tiene limites, lineas de codigo?? */
+    flex: 1;
+    resize: vertical; /* Permitir solo el redimensionamiento vertical */
+    min-height: 100px
+}
+
+
+.Seccion2{
+    display: flex;                                          /* Que hace? */
+
+    
+    /* Font Size? */
+    background-color: #BA5252;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
