@@ -1,5 +1,6 @@
-.container-carousel {
+.container-carousel {    
     margin: auto;
+    margin-top: 3%;
     position: relative;
     width: 100%;
     height: 350px;
