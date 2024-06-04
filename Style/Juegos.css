@@ -1,0 +1,16 @@
+.constenedor-Juegos{
+    display: grid;
+    margin: auto;
+    margin-top: 5px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6 ,1fr);
+    width: 1200px;
+}
+
+.constenedor-Juegos img{
+    display: block;
+    margin:  auto;
+    margin-top: 5px;
+    height: 200px;
+    border-radius: 10px;
+}
