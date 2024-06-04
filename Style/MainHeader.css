@@ -1,8 +1,8 @@
 .MainHeader{
     display:  flex;
-    background-color: rgb(52, 255, 79);
+    background-color: #4684ca;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 20px;
     height: 80px;
     width: 1200px;
     border-radius: 10px;
@@ -19,5 +19,5 @@
 
 .MainHeader .Buscador{
     margin-top: 2.5%;
-    margin-left: 50%;
+    margin-left: 40%;
 }
