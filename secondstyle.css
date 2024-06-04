@@ -1,9 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color:#1b263b;
+    background-image: url(./img/fooottt.jpg);
+    object-fit: cover;
+    background-repeat: unset;
     overflow-x: hidden;
     overflow-y: scroll;
+
    
 }
 
@@ -24,20 +27,21 @@ a {
 .navegador {
     position: relative;
     top: 20px;
-    left: 120px;
+    left: 90px;
     margin-left: 32px;
 
 }
 
 a:hover {
     color: #4684ca;
+    transform: scale(1.05);
    
 }
 
 .grid-container {
     position: relative;
     left: 78px;
-    top: 200px;
+    top: 100px;
     
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -58,10 +62,10 @@ a:hover {
 
 .grid-item:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.9);
 }
 
 .grid-item:nth-last-child(-n+4) {
-    margin-bottom: 30px; /* Ajusta este valor según la cantidad de separación que desees */
+    margin-bottom: 30px; 
 }
 
