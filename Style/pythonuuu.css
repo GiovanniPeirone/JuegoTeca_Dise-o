@@ -29,9 +29,6 @@ body    {
 
 .Seccion2{
     display: flex;                                          /* Que hace? */
-
-    
-    /* Font Size? */
     background-color: #BA5252;
     margin: 10px;
     justify-content: center;
